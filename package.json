@@ -11,7 +11,7 @@
     "setup": "tsx setup.ts",
     "seed": "tsx prisma/seed.ts",
     "build": "next build",
-    "start": "next start",
+    "start": "next build && next start",
     "lint": "next lint",
     "postinstall": "prisma generate"
   },
