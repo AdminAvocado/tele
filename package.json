@@ -10,9 +10,9 @@
     "dev": "next dev",
     "setup": "tsx setup.ts",
     "seed": "tsx prisma/seed.ts",
-    "build": "next build",
-    "export": "next export",
-    "start": "npm install && next start",
+    "build": "npm run build",
+    "export": "npm run export",
+    "start": "npm run build && npm run start",
     "lint": "next lint",
     "postinstall": "prisma generate"
   },
