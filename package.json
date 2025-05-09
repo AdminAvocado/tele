@@ -10,8 +10,8 @@
     "dev": "next dev",
     "setup": "tsx setup.ts",
     "seed": "tsx prisma/seed.ts",
-    "build": "npm run build",
-    "start": "npm run start",
+    "build": "npx next build",
+    "start": "npx next start",
     "lint": "next lint",
     "postinstall": "prisma generate"
   },
