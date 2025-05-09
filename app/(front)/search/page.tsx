@@ -28,12 +28,12 @@ export default async function page({
   return (
     <div className="container p-8">
       <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-3xl pb-6 ">
-        Search results for <span className="capitalize">{query}</span>
+        Resultados de Búsqueda para <span className="capitalize">{query}</span>
         {/* ({doctors.length.toString().padStart(2, "0")}) */}
       </h1>
       <div className="max-w-6xl mx-auto grid grid-cols-12 gap-6 lg:gap-10">
         <div className="col-span-3  border border-gray-200/50 rounded-sm p-6">
-          <h2 className="capitalize font-semibold">Browse By Services</h2>
+          <h2 className="capitalize font-semibold">Buscar por Servicios</h2>
           {services && services.length > 0 && (
             <div className="py-3 flex flex-col text-sm space-y-2">
               {services.map((service, i) => {
@@ -55,8 +55,8 @@ export default async function page({
           {searchServices && searchServices.length > 0 && (
             <div className="py-6 border-b">
               <h2 className="pb-3">
-                Results for <span className="font-semibold">{query}</span> in
-                services
+                Resultados para <span className="font-semibold">{query}</span> en
+                servicios
               </h2>
               <ServiceList data={searchServices} />
             </div>
@@ -64,8 +64,8 @@ export default async function page({
           {specialties && specialties.length > 0 && (
             <div className="py-6 border-b">
               <h2 className="pb-3">
-                Results for <span className="font-semibold">{query}</span> in
-                Specialties
+                Resultados para <span className="font-semibold">{query}</span> en
+                Especialidades
               </h2>
               <LinkCards className="bg-blue-900" specialties={specialties} />
             </div>
@@ -73,8 +73,8 @@ export default async function page({
           {symptoms && symptoms.length > 0 && (
             <div className="py-6 border-b">
               <h2 className="pb-3">
-                Results for <span className="font-semibold">{query}</span> in
-                Symptoms
+                Resultados para <span className="font-semibold">{query}</span> en
+                Sintomas
               </h2>
               <SymptomCards className="bg-blue-900" symptoms={symptoms} />
             </div>

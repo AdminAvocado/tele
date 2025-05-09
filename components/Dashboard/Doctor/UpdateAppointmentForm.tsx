@@ -65,7 +65,7 @@ export default function UpdateAppointmentForm({
     try {
       await updateAppointmentById(appointment.id, data);
       setLoading(false);
-      toast.success("Appointment Updated successfully");
+      toast.success("Cita actualizada exitosamente");
     } catch (error) {
       setLoading(false);
       console.log(error);

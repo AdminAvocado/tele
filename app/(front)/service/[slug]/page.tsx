@@ -24,7 +24,7 @@ export default async function page({
       </h1>
       <div className="max-w-6xl mx-auto grid grid-cols-12 gap-6 lg:gap-10">
         <div className="col-span-3  border border-gray-200/50 rounded-sm p-6">
-          <h2 className="capitalize font-semibold">Other Services</h2>
+          <h2 className="capitalize font-semibold">Otros Servicios</h2>
           {services && services.length > 0 && (
             <div className="py-3 flex flex-col text-sm space-y-2">
               {services.map((service, i) => {

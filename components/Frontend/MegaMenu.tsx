@@ -19,13 +19,13 @@ const megaMenu = [
     title: "Top Booked",
     services: [
       {
-        title: "Telehealth",
+        title: "Teleconsulta",
         slug: "tele-health",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nulla dolores reprehenderit, ipsum repellat natus nihil facilis quibusdam, rem laudantium nesciunt",
       },
       {
-        title: "Video prescription refill",
+        title: "Videollamada nueva receta",
         slug: "tele-health",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nulla dolores reprehenderit, ipsum repellat natus nihil facilis quibusdam, rem laudantium nesciunt",
@@ -48,13 +48,13 @@ const megaMenu = [
     title: "Doctores",
     services: [
       {
-        title: "Telehealth",
+        title: "Teleconsulta",
         slug: "tele-health",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nulla dolores reprehenderit, ipsum repellat natus nihil facilis quibusdam, rem laudantium nesciunt",
       },
       {
-        title: "Video prescription refill",
+        title: "Video receta",
         slug: "tele-health",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nulla dolores reprehenderit, ipsum repellat natus nihil facilis quibusdam, rem laudantium nesciunt",
@@ -77,13 +77,13 @@ const megaMenu = [
     title: "Specialists",
     services: [
       {
-        title: "Telehealth",
+        title: "Teleconsulta",
         slug: "tele-health",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nulla dolores reprehenderit, ipsum repellat natus nihil facilis quibusdam, rem laudantium nesciunt",
       },
       {
-        title: "Video prescription refill",
+        title: "Video receta",
         slug: "tele-health",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nulla dolores reprehenderit, ipsum repellat natus nihil facilis quibusdam, rem laudantium nesciunt",
@@ -106,13 +106,13 @@ const megaMenu = [
     title: "Symptoms",
     services: [
       {
-        title: "Telehealth",
+        title: "Teleconsulta",
         slug: "tele-health",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nulla dolores reprehenderit, ipsum repellat natus nihil facilis quibusdam, rem laudantium nesciunt",
       },
       {
-        title: "Video prescription refill",
+        title: "Video receta",
         slug: "tele-health",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nulla dolores reprehenderit, ipsum repellat natus nihil facilis quibusdam, rem laudantium nesciunt",

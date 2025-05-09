@@ -51,23 +51,23 @@ export default async function page({
                 <Button asChild variant={"outline"}>
                   <Link href={appointment?.meetingLink ?? "#"}>
                     <Video className="mr-2 w-4 h-4" />
-                    <span>Join Meeting</span>
+                    <span>Unirse a la reunion</span>
                   </Link>
                 </Button>
               </div>
               <div className="flex items-center justify-between">
-                <h2 className="font-semibold capitalize"> Communicate</h2>
+                <h2 className="font-semibold capitalize"> Comunicarse</h2>
                 <div className="flex space-x-3">
                   <Button asChild variant={"outline"}>
                     <Link href={appointment?.meetingLink ?? "#"}>
                       <Phone className="mr-2 w-4 h-4" />
-                      <span>Call Doctor</span>
+                      <span>LLamar al doctor</span>
                     </Link>
                   </Button>
                   <Button asChild variant={"outline"}>
                     <Link href={appointment?.meetingLink ?? "#"}>
                       <Mail className="mr-2 w-4 h-4" />
-                      <span>Mail Doctor</span>
+                      <span>Enviar correo al doctor</span>
                     </Link>
                   </Button>
                 </div>
